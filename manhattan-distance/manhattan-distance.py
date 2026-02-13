@@ -14,7 +14,7 @@ def manhattan_distance(x, y):
     for i in range(len(x)):
         a=x[i]-y[i]
         if(a<0):
-            a=a*-1
+            a=-a
         s=s+a
     return float(s)
     pass
